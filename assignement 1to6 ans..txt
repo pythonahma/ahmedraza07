@@ -1,0 +1,83 @@
+                                   FULL STACK ASSIGNMENT
+           
+                                       MODULE:1 (SDLC)
+
+(Q.1)What is software?What is software engineering?
+ ans.Software:softwre is a set of instruction,data or programs used to operate computer and execute specific tasks.
+    It is the opposite of hardware,which describes the physical aspects of a computer.software is a generic term 
+    used to refer ti application,scripts and programs that run on a device.It can be thought of as the variable part
+    of a computer,while hardware is the invariable part.
+ ans.Software Engineering;software engineering is the process of developing,testing and deploying computre application 
+    to solve real world problems by adhering to a set of engineering principles and best practices.The fieldnof software
+    engineering applies a disciplined and organized approach to software development with the stated goal of improving 
+    quality,time and budget efficiency along with the assurance of structured testing and engineer cetification.
+
+(Q.2)Explain types of software.
+ ans.There is mainly five types of application software.
+    1.Application software.
+    2.System software.
+    3.Drive  software.
+    4.Middelware.
+    5.Programming software.
+   
+ 1.Application software:Application software is a kind of software that performs specific functions for the end user
+   by interacting directly with it.The sole purpose of application software is to aid the user in doing specified tasks.
+   web browsers like firefox.and google chrome,as well as microsoft and excel,are examples of application software that is
+   used on a personal computer or a laptop.
+ 2.system software:is a types of computer program that is desingned to run a computer's hardware and application programs.
+   if we think of the computer system as a layered model,the system software is the interface between the hardware and user
+   applications.The operating system is the best knows example of system software.
+ 3.Drive software:a driver is a software component that lets the oprating system and a device communicate with each other.
+   for example, suppose an application needs to read some data from a device.
+ 4.Middelware:middelware is software that lies between an oprating system and the application running on it.essentially 
+   functioning as hidden translation layer,middelware enables communication and data management for distributed application.
+   for example,a web server is middelware that connects websites to the backend database.
+ 5.Programming software:programming software is a program or set of programs which helps the software developers by assisting
+   them in creating,debugging and maintaining other programs and applications.integrated development environments (IDEs)are
+   combinations of all these software.programming software is also known as programming tool.
+
+(Q.3)What is SDLC?Explain each phase of SDLC.
+ ans.The software development lifecycle(SDLC) is the cost-effective and time-efficent process that development teams use to
+    desing and build higf-quality software. The goal of SDLC is to minimize project risks through forward planning so that
+    software meets customer expectations during production and beyond.
+
+ ans.Software Development Life cycle(SDLC) Methodology:
+    1.Planning:The planning phase of the SDLC is also when the project plan is developed that identifies, prioritizes, and 
+    assigns the tasks and resources required to build the structure for a project. With that said, this step culminates in
+    a detailed project plan.
+
+    2.analysing:The analysis phase also gathers business requirements and identifies any potential risks. This step in SDLC
+    also includes a feasibility study, which defines all fortes and weak points of the project to assess the overall project viability.
+
+    3.Desing:The design phase is a stage where software developers define the technical details of the product. Depending on the project,
+      these details can include screen designs, databases, sketches, system interfaces, and prototypes. Clients use these details to make 
+      final product design choices.
+     
+    4.Implementation:Implementation includes user notification, user training, installation of hardware, installation of software 
+      onto production computers, and integration of the system into daily work processes. This phase continues until the system is
+      operating in production in accordance with the defined user requirements.
+    
+    5.Testing & Integration:Integration testing also known as integration and testing (I&T). Is a type of software testing 
+      in which the different units, modules or components of a software application are tested as a combined entity.
+      However, these modules may be coded by different programmers.
+
+    6.Mantenance:The maintenance is where the software is monitored to ensure it continues to function as it was designed to, 
+      and repairs or upgrades are performed as needed. The maintenance phase occurs once the software is fully operational.
+
+(Q.4)What is DFD?
+ ans.A data flow diagram is a graphical or visual representation using a standardized set of symbols and notations to describe 
+     a business operations through data movement.they are often elements of a formal methodology such os structured systems 
+     analysis and design method(SSADM).
+
+(Q.5)What is a flowchart?
+ ans.A flowchart is a diagram depicting a process,a system or a computer algorithm. it is a diagrammatic representation of
+     the solution to a given problem but,more importantly,it provides a breakdown of the essential steps to solving the problem.
+
+(Q.6)What is a use case diagram?
+ ans.use case diagrams describe the high level function and scope of a system.these diagrams also identify the interactions between
+     the system and its actors.the use cases and actors in use case diagrams describe what the system does amd how the actors use it,
+     but now the system opreates internally.
+
+
+
+  
