@@ -1,0 +1,42 @@
+                                                                                           DATABASE (Task.1)
+
+
+=>CREATE TABLE student(
+    Rollno int AUTO_INCREMENT PRIMARY KEY,
+    Name varchar(255),
+    Branch varchar(255)
+    );
+
+=>    INSERT INTO STUDENT (NAME,Branch) VALUES("JAY","COMPUTER SCIENCE"), 
+       ("Suhani","Electronic and Com"),
+       ("Kriti","Electronic and Com");
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=>   CREATE TABLE Exam(
+    Rollno int  ,
+    s_code VARCHAR (250),
+    Marks int,
+    p_code VARCHAR(250),
+    FOREIGN KEY (Rollno)  REFERENCES student(Rollno)  
+);
+
+==>  INSERT INTO exam (Rollno,s_code,Marks,p_code) VALUES
+ (1,"CS11",50,"CS"),
+(1,"CS12",60,"CS"),
+(2,"EC101",66,"EC"),
+(2,"EC102",70,"EC"),
+(3,"EC101",45,"EC"),
+(3,"EC102",50,"EC");
+
+OPTION=1 FOR INNER JOIN QUERY
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+==>  select * from student 
+inner join exam on student.rollno= exam.rollno;
+
+ 
+OPTION=2 FOR INNER JOIN QUERY
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+==>  SELECT Student.Rollno, Student.Name, Student.Branch, Exam.s_code, Exam.Marks, Exam.p_code
+FROM Student
+INNER JOIN Exam ON Student.Rollno = Exam.Rollno;

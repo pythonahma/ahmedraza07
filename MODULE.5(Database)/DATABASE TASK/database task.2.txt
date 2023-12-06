@@ -1,0 +1,20 @@
+                                                                                                  DATABASE task.2
+
+1).create table table_2(
+	FIRST_NAME VARCHAR (255),
+	LAST_NAME varchar(255),
+    ADDRESS VARCHAR(255),
+    CITY VARCHAR (300),
+    AGE INT			
+	); 
+
+
+2).INSERT INTO table_2 (FIRST_NAME ,LAST_NAME ,ADDRESS ,CITY , AGE) values 
+   ("MICKY","MOUSE","123 FANTASY WAY","ANAHEIM" ,73),
+   ("BAT","MAN","321 CAVERN AVE ","GOTHAM" ,54),
+   ("WONDER","WOMAN","987 TRUTH WAY","PARADISE" ,39),
+   ("DONALD ","DUCK","555 QUACK STREET","MALLARD" ,65),
+   ("BUGS","BUNNY","567 CARROT STREET ","RASCAL" ,58),
+   ("WILEY","COYOTE","999  ACME WAY","CANYON" ,61),
+   ("CAT","WOMAN","234 PERFECT STREET ","HAIRBALL" ,32),
+   ("TWEETY","BIRD","543","ITOTITAW" ,28);

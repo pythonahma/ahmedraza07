@@ -1,0 +1,86 @@
+                                                              DATABASE task.2
+------------------------------------------------------------------------------------------------------------------------------------------------
+TABLE 1 Salespersone
+
+1).CREATE  TABLE  salesperson(
+	s_no int primary key ,
+    s_name varchar (255) NOT NULL,
+    city varchar (255) NOT NULL,
+    comm float NOT NULL
+);
+
+
+
+2).INSERT INTO salesperson (S_NO,s_name,city,comm) VALUES 
+(1001,"Peel","London",.12),
+(1002,"Serres","San Jose",.13),
+(1004,"Motika","London",.11),
+(1007,"Rafkin","Barcelona",.15),
+(1003,"Axelrod","New york",.1);	
+
+
+----------------------------------------------------------------------------------
+Table 2 Customer
+
+1). CREATE TABLE customer(
+		CNM int PRIMARY KEY,
+    	C_NAME varchar(255) NOT NULL,
+    	CITY VARCHAR (255) NOT NULL,
+    	RATING INT (255) NOT NULL,
+    	S_NO INT,
+        FOREIGN KEY (S_NO)  REFERENCES salesperson (S_NO)
+);
+
+2).  INSERT INTO customer (CNM,C_NAME,CITY,RATING,S_NO) VALUES 
+(201,"HOFFMAN","LONDON",100,1001),
+(202,"GIOVANNE","ROE",200,1003),
+(203,"LIU","SAN JOSE ",300,1002),
+(204,"GRASS","BARCELONA",100,1002),
+(206,"CLEMENS","LONDON",300,1007),
+(207,"PEREIRA","ROE",100,1004);
+
+
+
+
+
+
+
+TABLE 4 SALESPERSON  QUERY
+
+1).All orders for more than $1000.
+ANS:- SELECT *
+FROM customer 
+WHERE S_NO > 1000;
+
+
+2.Names and cities of all salespeople in London with commission above 0.12     ****baki****
+ANS:
+SELECT s_name, City  
+FROM Salesperson
+WHERE City = "London" OR comm > 0.12;
+
+
+
+
+3.All salespeople either in Barcelona or in London   ***completed***
+ANS:
+Select *
+from salesperson
+WHERE city = 'Barcelona' OR city = 'London';
+
+
+4.All salespeople with commission between 0.10 and 0.12. (Boundary values    
+should be excluded).
+
+ANS:
+Select *
+from salesperson
+where comm > 0.10 and comm < 0.12;
+
+
+5.All customers excluding those with rating <= 100 unless they are located in 
+Rome
+ANS:
+SELECT *
+FROM Customer
+WHERE Rating > 100 OR City = 'Rome';
