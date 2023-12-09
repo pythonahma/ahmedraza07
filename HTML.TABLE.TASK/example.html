@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<fieldset>
+    <legend>Form</legend>
+    <form action="" method="post">
+        <table border="1" align="center">
+            <thead>
+                <tr>
+                    <th colspan="2">Registration Form</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="username">User Name</label></td>
+                    <td><input type="text" placeholder="Enter User Name" name="username" id="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" id="Male"><label for="Male">Male</label>
+                        <input type="radio" name="gender" value="Female" id="Female"> <label for="Female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Hobbies</label></td>
+                    <td>
+                        <input type="checkbox" name="chk[]" id="Cricekt"> <label for="Cricekt">Cricekt</label>
+                        <input type="checkbox" name="chk[]" id="Music"> <label for="Music">Music</label>
+                        <input type="checkbox" name="chk[]" id="Reading"> <label for="Reading">Reading</label>
+                        <input type="checkbox" name="chk[]" id="Travelling"> <label for="Travelling">Travelling</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">email</label></td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">mobile</label></td>
+                    <td><input type="tel" name="mobile" id="mobile"></td>
+                </tr>
+                <tr>
+                    <td><label for="">age</label></td>
+                    <td><input type="number" name="age" id="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="">address</label></td>
+                    <td>
+                        <textarea name="" id="" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Profile Pic</label></td>
+                    <td><input type="file" name="" accept="image/*" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">range</label></td>
+                    <td><input type="range" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">meter</label></td>
+                    <td><meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="30">at 50/100</meter></td>
+                </tr>
+                <tr>
+                    <td><label for="">color</label></td>
+                    <td><input type="color" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">DOB</label></td>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">datetime-local</label></td>
+                    <td><input type="datetime-local" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">time</label></td>
+                    <td><input type="time" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">month</label></td>
+                    <td><input type="month" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">week</label></td>
+                    <td><input type="week" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">url</label></td>
+                    <td><input type="url" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">City</label></td>
+                    <td>
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value="">Ahmedabad</option>
+                            <option value="">Baroda</option>
+                            <option value="">Surat</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Education</label></td>
+                    <td>
+                        <select name="" id="" multiple>
+                            <option value="1">10th</option>
+                            <option value="2">12th</option>
+                            <option value="3">BCA</option>
+                            <option value="6">BBA</option>
+                            <option value="7">Bcom</option>
+                            <option value="4">Msc.It</option>
+                            <option value="5">Mphill</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Datalist</label></td>
+                    <td>
+                        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+                        <datalist id="ice-cream-flavors">
+                            <option value="Chocolate">
+                            <option value="Coconut">
+                            <option value="Mint">
+                            <option value="Strawberry">
+                            <option value="Vanilla">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Readonly</label></td>
+                    <td>
+                        <input type="text" value="test will send to the server with form data" Readonly name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">disabled</label></td>
+                    <td>
+                        <input type="text" value="test will not send to the server with form data" disabled name="" id="">
+                        <input type="hidden" value="not show" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">search</label></td>
+                    <td>
+                        <input type="search" value="not show" name="" id="">
+                    </td>
+                </tr>
+
+
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Save" name="" id="">
+                        <input type="reset" value="Cancel" name="" id=""></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</fieldset>
+    
+</body>
+</html>

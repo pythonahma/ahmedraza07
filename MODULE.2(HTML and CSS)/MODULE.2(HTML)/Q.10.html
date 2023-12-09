@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  margin: 20px;
+}
+          
+    </style>
+</head>
+<body>
+    <header>
+        <table width="70%" align="center" bgcolor="#22A5F1">
+            <tr>
+                <th>
+                    <font color="#D50909" size="6px">Individual Registration</font>
+                </th>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <br>
+        <form action="Regform.php" method="post" target="_blank" enctype="multipart/form-data">
+            <br>
+            <table width="70%" align="center" style="background-color:#D3E2F3; padding: 25px;" cellpadding="4px" >
+                <tr>
+                    <td>
+                        <font size="4.5px" color="#D50909">User Particular</font> 
+                    </td> 
+                </tr>
+                <tr>
+                    <td colspan="2"  style="color: #031a5c ;" align="right" width="60%">
+                        <label for="LoginID">*Login ID:</label>
+                    </td>
+                    <td>    
+                        <input type="text" name="text" id="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="color: #031a5c ;" align="right" width="50%">
+                        <label for="password">*Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="color: #031a5c ;" align="right" width="50%">
+                        <label for="password">*Confirm Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="cp" name="password">
+                    </td>
+                </tr>
+<!--Personal particular--> 
+
+             <tr>
+                <td>
+                    <font size="4.5px" color="#D50909">Personal Particulars</font> 
+                </td>
+            </tr>
+            <tr>
+                <td style="color: #031a5c ;" align="right" width="25%">
+                    <label for="saluation">*Saluation</label>
+                </td>
+                <td width="25%">
+                    <select>
+                        <option value="1">Select</option>
+                        <option value="2">Mr.</option>
+                        <option value="3">Mrs.</option>
+                        <option value="4">Miss</option>
+                        <option value="5">Sir</option>
+                    </select>
+                </td>
+                <td width="25%"style="color: #031a5c ;" align="right">
+                    <label for="firstname">*First Name</label>
+                </td>
+                <td width="25%">
+                    <input type="text" name="text" id="text">  
+                </td>
+            </tr>
+            
+            <tr>
+                <td width="25%"style="color: #031a5c ;" align="right">
+                    <label for="middlename">Middle Name</label>
+                </td>
+                <td width="25%">
+                    <input type="text" name="text" id="text">  
+                </td>
+
+                <td width="25%"style="color: #031a5c ;" align="right">
+                    <label for="lastname">*Last Name</label>
+                </td>
+                <td width="25%">
+                    <input type="text" name="text" id="text">  
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color: #031a5c ;" align="right" width="25%">
+                    <label for="resident">*Resident Status</label>
+                </td>
+                <td width="25%">
+                    <select>
+                        <option value="1">Select</option>
+                        <option value="2">Citizen </option>
+                        <option value="3">Perment Resident </option>
+                        <option value="4">Foreigner </option>
+                        <option value="5">Visitor Resident </option>
+                    </select>
+                </td>
+
+                <td style="color: #031a5c ;" align="right" width="25%">
+                    <label for="resident">*Country</label>
+                </td>
+                <td width="25%">
+                    <select>
+                        <option value="1">Select</option>
+                        <option value="2">India </option>
+                        <option value="3">Canada </option>
+                        <option value="4">USA </option>
+                        <option value="5">UAE</option>
+                    </select>
+                </td>
+
+                <tr>
+                    <td width="25%"style="color: #031a5c ;" align="right">
+                        <label for="email">*E-Mail</label>
+                    </td>
+                    <td width="25%">
+                        <input type="email" name="email" id="emailid" placeholder="xyz@gmail">  
+                    </td>
+
+                    <td width="25%"style="color: #031a5c ;" align="right">
+                        <label for="mobile">*Mobile</label>
+                    </td>
+                    <td width="25%">
+                        <input type="tel" name="" id="" >  
+                    </td>
+                </tr>
+            
+
+                <tr>
+                    <td>
+                        <font size="4.5px" color="#D50909">Account Particulars</font> 
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td width="25%"style="color: #031a5c ;" align="right">
+                        <label for="accountnum">*15 Digit Account No.</label>
+                    </td>
+                    <td width="25%">
+                        <input type="text" name="an" id="an">
+                        
+                        <td width="25%"style="color: #031a5c ;" align="right">
+                            <label for="nickname">Nick Name</label>
+                        </td>
+                        <td width="25%">
+                            <input type="number" name="" id="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="25%"style="color: #031a5c ;" align="right">
+                        <label for="fundtrans">*Fund Transfer</label>
+                    </td>
+                    <td width="25%">
+                        <select>
+                            <option value="0">Select</option>
+                            <option value="1">1000</option>
+                            <option value="2">5000</option>
+                            <option value="3">10000</option>
+                            <option value="4">100000</option>
+                            <option value="5">1000000</option>
+                            <option value="6">10000000</option>
+                        </select>    
+
+                </tr>
+
+                <tr>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <font size="4.5px" color="#D50909">DECLARATION</font>
+                    </td> 
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                     <font color="#03668d">
+                    I have read, understood and hereby agree to the Terms and Conditions in respect of all products and channels.<br>
+I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request at any IOB branches. I confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor anyone or survivor(s) under his her joint name respectively. I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.
+                    </font>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="right" width="50%">
+                    <input type="submit" name="submit" value="Submit"
+                         style="background-color:#03668d ; color: white; "  >
+                    </td>
+
+                    <td colspan="2">
+                        <input type="reset" name="reset" value="Reset"
+                         style="background-color:#03668d ; color: white; "  >
+                    </td>
+                </tr>
+
+
+            </table>
+
+        </form>
+    </main>
+</body>
+</html>
