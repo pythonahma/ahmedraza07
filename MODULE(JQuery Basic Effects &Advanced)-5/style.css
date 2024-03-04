@@ -1,0 +1,81 @@
+.row {
+    display: flex;
+}
+
+
+h2 {
+    
+    color: rgb(177, 16, 16);
+}
+
+h3 {
+    font-style: italic;
+    text-align: right;
+    margin-right: 50px;
+    color: rgb(133, 3, 42);
+    font-size: 30px;
+}
+
+strong {
+    color: green;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+body {
+    padding: 30px;
+    background: rgb(244, 202, 112);
+    /* background: linear-gradient(0deg, rgba(244, 202, 112, 1) 0%, rgba(173, 238, 147, 1) 25%, rgba(141, 240, 231, 1) 50%, rgba(173, 238, 147, 1) 75%, rgba(244, 202, 112, 1) 100%); */
+    /* background-image: linear-gradient(to   top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    background: linear-gradient(0deg , rgba(209, 107, 165,1) 0% , rgba(170, 143, 216,1) 25% , rgba(121, 179, 244,1) 50% ,rgba(70, 238, 250,1) 75% ,  rgba(173, 238, 147, 1) 100%)  ;
+
+    border: 10px solid rgb(2, 83, 70);
+    line-height: 2rem;
+}
+
+hr {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.img-size {
+    width: 600px;
+    height: 500px;
+}
+
+.small-size {
+    width: 450px;
+    height: 250px;
+}
+
+#div {
+    margin-left: 10%;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-bottom: 80px;
+    border-radius: 4px;
+    line-height: 0.8;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+
+.btn-secondary {
+    background: #232B38;
+    color: #FFF;
+}
+
+.btn-secondary:hover {
+    background: #FFF;
+    color: #232B38;
+    border: 1px solid #232B38;
+}
+
+ul>li,p~ol>li {
+    font-size: 20px;
+    /* color: blue; */
+    font-weight: normal;
+}

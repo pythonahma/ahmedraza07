@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image slider</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style type="text/css">
+		img{
+			width: 100%;
+			height: 600px;
+		}
+		 #slider{
+		 	width: 1000px;
+		 	height: 600px;
+		 	margin: 20px auto;
+		 	position: relative;
+		 	border: 10px solid white;
+		 	box-shadow: 0px 0px 5px 2px #ccc;
+		 }
+		 button{
+		 	padding: 20px;
+		 	border: none;
+		 	background: r gb(16, 34, 192);
+		 	font-size: 30px;
+		 	color: rgba(11, 214, 21, 0.397);
+		 	position: absolute;
+		 	top:45%;
+		 	
+		 }
+
+        .next{
+        	border-radius: 10px 0px 0px 10px;
+        	margin-left: 950px;
+        }
+        .prew{
+        	border-radius: 0px 10px 10px 0px;
+			margin-left: 950px;
+        }
+
+	</style>
+</head>
+<body>
+
+	<div id="slider">
+		<div id="box">
+			<img src="a.jpg">
+		</div>
+
+		
+		<button class="prew fa fa-chevron-left" onclick="prewImage()"></button>
+		<button class="next fa fa-chevron-right" onclick="nextImage()"></button>
+	</div>
+
+
+
+  <script type="text/javascript">
+
+  	var slider_content = document.getElementById('box');
+
+
+    var image = ['a','b', 'c', 'd','e'];
+
+    var i = image.length;
+
+
+    
+    function nextImage(){
+    	if (i<image.length) {
+    		i= i+1;
+    	}else{
+    		i = 1;
+    	}
+    	  slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+    }
+
+
+    
+
+    function prewImage(){
+
+    	if (i<image.length+1 && i>1) {
+    		i= i-1;
+    	}else{
+    		i = image.length;
+    	}
+    	  slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+
+    }
+
+  
+  
+  setInterval(nextImage ,2000);
+
+  </script>
+
+
+</body>
+</html>
