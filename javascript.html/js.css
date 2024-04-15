@@ -1,0 +1,13 @@
+* {
+    font-family: quicksand;
+}
+
+.header-wrapper {
+    font-size: 30px;
+    color: white;
+    background-color: rgba(249, 86, 16, 0.553);
+    font-family: quicksand;
+    text-align: center;
+    /* width: 100%; */
+    
+}
